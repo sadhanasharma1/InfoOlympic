@@ -356,80 +356,6 @@ padding:30px;
     font-family: poppins; 
     margin-top:10px;
 }
-  /* resonsive------------------ */
-
-  @media(max-width: 900px){
-    .max-width{
-      padding:0 23px;
-    }
-      .home .home-content .text-2{
-          font-size:60px;
-         }
-      .home .home-content .text-3{
-          font-size:32px;
-         }
-
-    .schedule-content{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items: center;
-
-    }
-        
-         .schedule .schedule-content .card{
-         
-          width:400px;
-          height:300px;
-          background:#17594A;
-        
-          border-radius:7px;
-          padding: 20px 25px;
-          cursor:pointer;
-      }
-
-      .schedule .schedule-content .card  .text{
-          font-size: 30px;
-          font-weight:500;
-          margin: 10px 0 12px 0;
-          font-family: 'Ubuntu'
-      }
-      .schedule .schedule-content  ul li{
-          font-size:17px;
-          font-family:poppins;
-      }
-
-      .menu-btn{
-        display:block;
-        z-index:999;
-        }
-        .menu-btn i.active:before{
-         content:"\f00d";
-        }
-    .navbar .menu{
-        position: fixed;
-        height:100vh;
-        width:100%;
-        background:#111;
-       left:-100%;
-       top:0;
-       text-align:center;
-       padding:100px;
-       transition: all 0.3s ease;
-    }
-    .navbar .menu.active{               /*.active*/
- left:0;
-    }
-    .navbar .menu li{
-        display:block;
-    }
-    .navbar .menu li a{
-        display:inline-block;
-        margin:20px 0;
-        font-size:25px;
-    }
-      
-    }
 
 
     /* Contact Me section styling--------------------------- */
@@ -521,6 +447,96 @@ background:#4d5357;
   .foot i:hover{
     color: #F7D060;
     font-size:30px;
+  }
+/* responsive ------------------------------- */
+
+
+    @media(max-width:1200px){
+        .home .max-width{
+            margin-left:0px;
+         
+    }
+    }
+    @media(max-width: 947px){
+        .max-width{
+            padding:0 50px;}
+        
+    
+          .home .home-content .text-2{
+              font-size:60px;
+             }
+          .home .home-content .text-3{
+              font-size:32px;
+             }
+    
+        .schedule-content{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items: center;
+    
+        }
+            
+             .schedule .schedule-content .card{
+             
+              width:400px;
+              height:300px;
+              background:#17594A;
+            
+              border-radius:7px;
+              padding: 20px 25px;
+              cursor:pointer;
+          }
+    
+          .schedule .schedule-content .card  .text{
+              font-size: 30px;
+              font-weight:500;
+              margin: 10px 0 12px 0;
+              font-family: 'Ubuntu'
+          }
+          .schedule .schedule-content  ul li{
+              font-size:17px;
+              font-family:poppins;
+          }
+    
+          .menu-btn{
+            display:block;
+            z-index:999;
+            }
+            .menu-btn i.active:before{
+             content:"\f00d";
+            }
+        .navbar .menu{
+            position: fixed;
+            height:100vh;
+            width:100%;
+            background:#111;
+           left:-100%;
+           top:0;
+           text-align:center;
+           padding:100px;
+           transition: all 0.3s ease;
+        }
+        .navbar .menu.active{               /*.active*/
+     left:0;
+        }
+        .navbar .menu li{
+            display:block;
+        }
+        .navbar .menu li a{
+            display:inline-block;
+            margin:20px 0;
+            font-size:25px;
+        }
+          
+        }
+
+  
+  @media(max-width: 690px){
+    .max-width{
+        padding: 0 23px;
+    }
+
   }
 
     
