@@ -92,11 +92,7 @@ transition: color 0.3s ease;    /* diff */
 .navbar.sticky .menu li a:hover{
 color:white;
 }
-.max-width  {
-    max-width:3000px;
-    padding: 0px 40px;
-    margin:auto;
-}
+
 
 
 .port{
@@ -153,7 +149,9 @@ color:white;
 
 
 .home .max-width{
-  
+    display:flex;
+
+justify-content:center;
 align-items: center;
 background-color: #222;
 opacity: 0.7;
@@ -168,14 +166,14 @@ height: 300px;
 .home .home-content .text-1{
     font-size:30px;
     font-weight:400;
-    opacity:1;
+
     
 }
 .home .home-content .text-2{
     font-size:60px;
     font-weight:600;
     margin-left: -3px;
-    opacity:1;
+ 
 }
 .home .home-content .text-3{
     font-size:40px;
@@ -185,7 +183,7 @@ height: 300px;
 
 .home .home-content .text-3 span{
     color: #F3E99F;
-    font-weight:500;
+    font-weight:600;
 }
 
 /* player section styling---------------- */
@@ -198,6 +196,7 @@ padding:30px;
 .player .player-content img{
     width: 160px;
     height: 200px;
+    padding:20px;
    
 }
 .player .player-content .profile{
@@ -212,6 +211,7 @@ padding:30px;
 .player .player-content .z{
     background-color: #E1ECC8;
     display:flex;
+   
     justify-content: center;
     align-items: center;
     
@@ -358,6 +358,7 @@ padding:30px;
 }
 
 
+
     /* Contact Me section styling--------------------------- */
 
 
@@ -365,13 +366,11 @@ padding:30px;
     display:flex;
     flex-direction:column;
     text-align: center;
-    margin: 35px 0 20px 0 !important;
+    margin: 20px 500px 20px 500px !important;
     /* background:#222; */
     
   }
-.contact .max-width{
-    width:900px;
-}
+
 
   input[type=submit] {
     width: 100%;
@@ -390,7 +389,7 @@ background:#4d5357;
 
   input[type=text], select {
     width: 100%;
-    background:#4d5357;
+    background:#E1ECC8;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -401,7 +400,7 @@ background:#4d5357;
   }
   input[type=email], select {
     width: 100%;
-    background:#4d5357;
+    background:#E1ECC8;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -448,14 +447,41 @@ background:#4d5357;
     color: #F7D060;
     font-size:30px;
   }
-/* responsive ------------------------------- */
 
+    /* resonsive------------------ */
+
+    
+    @media(max-width:2000px){
+        .home .max-width{
+            margin-left:0px;
+            margin-right:0px;
+         
+    }
+    .contact .contact-content {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+        margin: 20px 100px 20px 100px !important;
+        /* background:#222; */
+        
+      }
+    }
 
     @media(max-width:1200px){
         .home .max-width{
             margin-left:0px;
          
     }
+    .contact .contact-content {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+        margin: 20px 120px 20px 120px !important;
+        /* background:#222; */
+        
+      }
     }
     @media(max-width: 947px){
         .max-width{
@@ -528,16 +554,68 @@ background:#4d5357;
             margin:20px 0;
             font-size:25px;
         }
-          
+        .player .player-content .z{
+           
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+        } 
+        .player .player-content .z .text{
+            width:820px;
+            margin-top:-40px;
+            text-align:center;
         }
-
+        .player .player-content .z img{
+            padding:10px;
+        }
+        }
+        @media(max-width: 950px){
+            .max-width{
+                padding: 0 23px;
+            }
+            .player .player-content .z .text{
+                width:650px;
+                margin-top:-40px;
+                text-align:center;
+            }
+          }
+        @media(max-width: 800px){
+            .max-width{
+                padding: 0 23px;
+            }
+            .player .player-content .z .text{
+                width:600px;
+                margin-top:-40px;
+                text-align:center;
+            }
+          }
   
   @media(max-width: 690px){
     .max-width{
         padding: 0 23px;
     }
-
+    .player .player-content .z .text{
+        width:650px;
+        margin-top:-40px;
+        text-align:center;
+    }
   }
+
+  @media(max-width: 500px){
+    .max-width{
+        padding: 0 23px;
+    }
+    .player .player-content .z .text{
+        width:650px;
+        margin-top:-40px;
+        text-align:center;
+    }
+  }
+
+
+
+
 
     
 
