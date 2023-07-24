@@ -466,6 +466,22 @@ background:#4d5357;
         /* background:#222; */
         
       }
+      .logo{
+   
+        display:flex;
+        gap:5px;
+    }
+    .port{
+        border-radius: 200%;
+        float:left;
+        width:80px;
+        height:80px;
+    }
+    .logo a{
+        align-self:center;
+        font-size: 2px;
+        
+    }
     }
 
     @media(max-width:1200px){
@@ -482,11 +498,26 @@ background:#4d5357;
         /* background:#222; */
         
       }
+
+      .home .home-content .text1{
+        font-size: 0px; 
+    }
+
+  .home .home-content .text-2{
+      font-size:60px;
+     }
+  .home .home-content .text-3{
+      font-size:32px;
+     }
+
     }
     @media(max-width: 947px){
         .max-width{
             padding:0 50px;}
         
+            .home .home-content .text1{
+                font-size: 20px; 
+            }
     
           .home .home-content .text-2{
               font-size:60px;
@@ -611,25 +642,49 @@ background:#4d5357;
         margin-top:-40px;
         text-align:center;
     }
-  }
-  @media(max-width: 420px){
-    .max-width{
-        padding: 0 23px;
+    .logo{
+   
+        display:flex;
+        gap:5px;
     }
-    .player .player-content .z .text{
-        width:350px;
-        margin-top:-40px;
-        text-align:center;
+    .port{
+        border-radius: 200%;
+        float:left;
+        width:50px;
+        height:50px;
+    }
+    .logo a{
+        align-self:center;
+        font-size: 5px;
+        
     }
   }
+
   @media(max-width: 400px){
     .max-width{
         padding: 0 23px;
     }
     .player .player-content .z .text{
-        width:300px;
+        width:400px;
         margin-top:-40px;
         text-align:center;
+    }
+
+    .logo{
+   
+        display:flex;
+        gap:5px;
+    }
+    .port{
+        border-radius: 200%;
+        float:left;
+        width:40px;
+        height:40px;
+    }
+    .logo a{
+        align-self:center;
+        font-size: 3px;
+        
     }
   }
 
