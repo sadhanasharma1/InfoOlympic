@@ -126,8 +126,10 @@ color:white;
     gap:15px;
 }
 .logo p{
+    color:#fff;
     align-self:center;
-    size:10px;
+    font-size:50px;
+    font-weight:600;
     
 }
 
@@ -137,6 +139,8 @@ color:white;
     display:flex;
   
     background: url("bg1.jpg") no-repeat center;
+    justify-content:center;
+    align-items: center;
    
     height:100vh;
     color:#fff;
@@ -478,8 +482,10 @@ background:#4d5357;
         height:80px;
     }
     .logo p{
+        color:#fff;
         align-self:center;
-        font-size: 9px;
+        font-size:38px;
+        font-weight:450;
         
     }
     }
@@ -677,8 +683,10 @@ background:#4d5357;
         height:50px;
     }
     .logo p{
+        color:#fff;
         align-self:center;
-        font-size: 5px;
+        font-size:35px;
+        font-weight:450;
         
     }
 
@@ -707,8 +715,10 @@ background:#4d5357;
         height:40px;
     }
     .logo p{
+        color:#fff;
         align-self:center;
-        font-size: 3px;
+        font-size:30px;
+        font-weight:400;
         
     }
     .player .title,.schedule .title,.ticket .title,.venue .title,.contact .title{
@@ -740,7 +750,6 @@ background:#4d5357;
 
 
     
-
 
 
 
