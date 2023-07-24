@@ -112,7 +112,7 @@ color:white;
 
 .menu-btn{
     color: #fff;
-    font-size:23px;
+    font-size:20px;
     cursor:pointer;
     display:none;
     
@@ -125,7 +125,7 @@ color:white;
     display:flex;
     gap:15px;
 }
-.logo a{
+.logo p{
     align-self:center;
     size:10px;
     
@@ -477,9 +477,9 @@ background:#4d5357;
         width:80px;
         height:80px;
     }
-    .logo a{
+    .logo p{
         align-self:center;
-        font-size: 2px;
+        font-size: 9px;
         
     }
     }
@@ -631,6 +631,29 @@ background:#4d5357;
         margin-top:-40px;
         text-align:center;
     }
+ 
+    .player .title,.schedule .title,.ticket .title,.venue .title,.contact .title{
+        position:relative;
+        text-align:center;
+        font-size:50px;
+        font-weight: 400;
+        margin-bottom:60px;
+        padding-bottom:20px;
+        font-family: 'Ubuntu', sans-serif; 
+        text-decoration: #111;
+    }
+    .player .title .title_btm,.ticket .title .title_btm,.contact .title .title_btm {
+        font-size:26px;
+        color:#17594A;
+       
+        
+     }
+     .player .player-content .head{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Ubuntu', sans-serif; 
+        padding:30px;
+        }
   }
 
   @media(max-width: 500px){
@@ -653,11 +676,12 @@ background:#4d5357;
         width:50px;
         height:50px;
     }
-    .logo a{
+    .logo p{
         align-self:center;
         font-size: 5px;
         
     }
+
   }
 
   @media(max-width: 400px){
@@ -668,6 +692,7 @@ background:#4d5357;
         width:400px;
         margin-top:-40px;
         text-align:center;
+        font-size: 13px;
     }
 
     .logo{
@@ -681,11 +706,33 @@ background:#4d5357;
         width:40px;
         height:40px;
     }
-    .logo a{
+    .logo p{
         align-self:center;
         font-size: 3px;
         
     }
+    .player .title,.schedule .title,.ticket .title,.venue .title,.contact .title{
+        position:relative;
+        text-align:center;
+        font-size:40px;
+        font-weight: 350;
+        margin-bottom:60px;
+        padding-bottom:20px;
+        font-family: 'Ubuntu', sans-serif; 
+        text-decoration: #111;
+    }
+    .player .title .title_btm,.ticket .title .title_btm,.contact .title .title_btm {
+        font-size:22px;
+        color:#17594A;
+       
+        
+     }
+     .player .player-content .head{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif; 
+        padding:30px;
+        }
   }
 
 
@@ -693,6 +740,7 @@ background:#4d5357;
 
 
     
+
 
 
 
