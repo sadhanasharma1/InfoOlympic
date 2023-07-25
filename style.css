@@ -103,7 +103,7 @@ color:white;
 }
 
 .max-width  {
-    max-width:1900px;
+    max-width:1497.6px;
     padding: 0px 80px;
     margin:auto;
 }
@@ -461,10 +461,14 @@ background:#4d5357;
 
     
     @media(max-width:2000px){
+        
         .home .max-width{
             margin-left:0px;
             margin-right:0px;
          
+    }
+    .max-width{
+        width: 2000px;
     }
 
       .logo{
@@ -488,12 +492,15 @@ background:#4d5357;
     }
 
     @media(max-width:1200px){
+
         .home .max-width{
             margin-left:0px;
          
     }
 
-
+    .max-width{
+        width: 1200px;
+    }
       .home .home-content .text1{
         font-size: 0px; 
     }
@@ -508,6 +515,7 @@ background:#4d5357;
     }
     @media(max-width: 947px){
         .max-width{
+            width:947px;
             padding:0 50px;}
         
             .home .home-content .text1{
@@ -599,6 +607,7 @@ background:#4d5357;
         @media(max-width: 950px){
             .max-width{
                 padding: 0 23px;
+                width:950px;
             }
             .player .player-content .z .text{
                 width:650px;
@@ -620,6 +629,7 @@ background:#4d5357;
   @media(max-width: 690px){
     .max-width{
         padding: 0 23px;
+        width:690px;
     }
     .player .player-content .z .text{
         width:650px;
@@ -657,7 +667,8 @@ background:#4d5357;
 
   @media(max-width: 500px){
     .max-width{
-        padding: 0 0px;
+        padding: 0 23px;
+        width:500px;
     }
     .player .player-content .z .text{
         width:650px;
@@ -678,7 +689,7 @@ background:#4d5357;
     .logo p{
         color:#fff;
         align-self:center;
-        font-size:35px;
+        font-size:30px;
         font-weight:450;
         
     }
@@ -688,6 +699,7 @@ background:#4d5357;
   @media(max-width: 400px){
     .max-width{
         padding: 0 23px;
+        width:400px;
     }
     .player .player-content .z .text{
         width:400px;
@@ -710,7 +722,7 @@ background:#4d5357;
     .logo p{
         color:#fff;
         align-self:center;
-        font-size:30px;
+        font-size:25px;
         font-weight:400;
         
     }
