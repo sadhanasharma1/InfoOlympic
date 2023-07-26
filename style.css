@@ -184,7 +184,7 @@ nav .links a {
 }
 
 nav .links a:hover {
-    color: red;
+    color: #F7D060;
     transition: 0.3s;
 }
 
@@ -230,7 +230,7 @@ nav .icon-burger .line {
 }
 
 
-/* pic +/know me */
+/* pic +/infoOlympics */
 .logo {
 
     display: flex;
@@ -243,7 +243,7 @@ nav .icon-burger .line {
 
 }
 
-/* home section */
+/* home section ------------------*/
 
 .home {
     display: flex;
