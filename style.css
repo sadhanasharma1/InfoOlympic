@@ -39,7 +39,7 @@ html {
 .player .title .title_btm,
 .ticket .title .title_btm,
 .contact .title .title_btm,
-.CntcForm p {
+.CntcForm .title_btm {
     font-size: 30px;
     color: #17594A;
 
