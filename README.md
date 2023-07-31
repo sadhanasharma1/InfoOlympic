@@ -13,4 +13,3 @@ For the convenience of users, the Tickets section offers a simple process to iss
 
 Lastly, the Venue section presents essential details about the stadiums hosting the Olympic events.
 
-This is the demo video. Thank you so much for watching this video and I will see you in the next one 😇.
